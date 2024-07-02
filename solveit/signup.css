@@ -1,0 +1,97 @@
+
+	body{
+		background-image: url('signup3.jpeg'); 
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position:center;
+	}
+	::placeholder { 
+ 		 color: navy;
+ 		 opacity: 0.7; /* Firefox */
+	}
+	.form
+	{
+		width:400px; 
+		height: 600px; 
+		background-color:transparent;
+		color: maroon;
+		box-shadow:0px 0px 50px -6px rgb(124, 221, 212);
+		border-radius: 20px; 
+		transform: translate(300px,130px);
+			
+	}
+	.form-login{
+		width:400px; 
+		height: 500px; 
+		background-color:transparent;
+		color: maroon;
+		box-shadow:0px 0px 50px -6px rgb(124, 221, 212);
+		border-radius: 20px; 
+		transform: translate(300px,130px);
+	}
+	
+	.heading
+	{
+		font-size: 40px;
+		text-align: center;
+		font-family: 'Lucida Sans Unicode';
+		color: rgb(31, 33, 137);
+		letter-spacing: 1px;
+        position: relative;
+        top:5px;
+	}		
+	.label
+	{
+		font-size: 20px;
+		font-family: 'Century Gothic';
+		color: maroon;
+        position: relative;
+        left: 70px;
+	}
+	.input
+	{
+		font-size: 17px;
+		font-family: 'Microsoft Sans Serif';
+		color: rgb(140, 80, 1);
+		padding: 7px;
+		margin-top: 15px;
+		margin-bottom: 30px;
+		border-radius: 10px;
+		border-top: 0px;
+		border-style: none; 
+		box-shadow: 0px 0px 6px -1px rgb(141, 128, 130);
+		outline:none;
+		background-color:transparent;
+        position: relative;
+        left: 70px;
+	}
+	.submit
+	{
+		font-size: 20px;
+		padding-right:  15px;
+		padding-left:  15px;
+		padding-top:  5px;
+		padding-bottom:  5px;
+		font-family: 'Helvetica';
+		border-radius: 0px;
+		outline: none;
+		color:  rgb(31, 33, 137);
+		background-color: transparent; 
+		border-image: linear-gradient(to right,black,rgb(31, 33, 137));
+        border-image-slice: 1;
+        position: relative;
+        left: 80px;
+	}
+	.submit:hover
+	{
+		font-size: 21px;
+		padding-right:  15px;
+		padding-left:  15px;
+		padding-top:  5px;
+		padding-bottom:  5px;
+		font-family: 'Helvetica';
+		border-radius:0px;
+		color: white;
+		background-color: rgb(31, 33, 137);
+		border-style: none;
+	}
