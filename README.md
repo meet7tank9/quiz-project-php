@@ -1,7 +1,9 @@
 # quiz-project-php
-A quiz webapplication.
+SolveIt - A Quiz WebApplication.
 
-Technologies used:
+
+
+Technologies used: \n
 PHP
 MySQL
 HTML, CSS, JavaScript
